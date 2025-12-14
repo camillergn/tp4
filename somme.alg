@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description courant="AFFICHER &quot;Le résultat de la somme est (camille) : &quot;" texte=""/>
+    <description courant="AFFICHER &quot;La somme donne (conflit résolu) :&quot;" texte=""/>
     <extension extnom="inactif"/>
     <fonction fctetat="inactif" fctcode=""/>
     <F2 F2defaut="" F2lignes="" F2etat="inactif" F2para=""/>
@@ -17,11 +17,11 @@
         <item code="2#a#pasliste" algoitem="LIRE a"/>
         <item code="2#b#pasliste" algoitem="LIRE b"/>
         <item code="5#somme#a + b#pasliste" algoitem="somme PREND_LA_VALEUR a + b"/>
-        <item code="4#Le résultat de la somme est (camille) : #0" algoitem="AFFICHER &quot;Le résultat de la somme est (camille) : &quot;"/>
+        <item code="4#La somme donne (conflit résolu) : #0" algoitem="AFFICHER &quot;La somme donne (conflit résolu) :&quot;"/>
         <item code="3#somme#1#pasliste" algoitem="AFFICHER somme"/>
         <item code="5#difference#a - b#pasliste" algoitem="difference PREND_LA_VALEUR a - b"/>
         <item code="4#Le résultat de la différence est : #1" algoitem="AFFICHER &quot;Le résultat de la différence est : &quot;"/>
         <item code="3#difference#1#pasliste" algoitem="AFFICHER difference"/>
     </item>
-    <item code="102#finalgo" algoitem="FIN_ALGORITHME"/>
+    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
 </Algo>
